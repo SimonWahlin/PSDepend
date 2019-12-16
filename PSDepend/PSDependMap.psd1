@@ -12,6 +12,12 @@
         Supports = 'windows', 'core', 'macos', 'linux'
     }
 
+    Chocolatey = @{
+        Script = 'Chocolatey.ps1'
+        Description = 'Install a chocolatey package'
+        Supports = 'windows', 'core'
+    }
+
     DotnetSdk = @{
         Script = 'DotnetSdk.ps1'
         Description = "Installs the .NET Core SDK"
